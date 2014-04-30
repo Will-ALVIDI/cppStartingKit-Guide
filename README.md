@@ -50,17 +50,17 @@ If you want to use the [**C++ Starting Kit**](https://github.com/kodLite/cppStar
 
 This should give you the page below then click on the download page highlighted on the next image. 
 
-![MinGW-w64 project main page](https://github.com/kodLite/cppStartingKit/blob/master/screenshot/mingw-main-page-marked.jpg?raw=true)
+![MinGW-w64 project main page](https://github.com/kodLite/cppStartingKit-Guide/blob/master/screenshot/cppStartingKit/mingw-main-page-marked.jpg?raw=true)
 
 * To keep things easy, on the download page, get **the installer**, highlighted on the next image. This should give you a file called `mingw-builds-install.exe`.
 
-![MinGW-w64 project download page](https://github.com/kodLite/cppStartingKit/blob/master/screenshot/mingw-download-page-marked.jpg?raw=true)
+![MinGW-w64 project download page](https://github.com/kodLite/cppStartingKit-Guide/blob/master/screenshot/cppStartingKit/mingw-download-page-marked.jpg?raw=true)
 
 * Then launch `mingw-builds-install.exe`. An installation process will begin where you have two major things to take care of.
 
 The first thing is to chosse the correct options for this specific installation. Change the default architecture for the x64 and keep the rest as it is. Then click on the `Next` button.
 
-![MinGW-w64 project options](https://github.com/kodLite/cppStartingKit/blob/master/screenshot/mingw-install-options-marked.jpg?raw=true)
+![MinGW-w64 project options](https://github.com/kodLite/cppStartingKit-Guide/blob/master/screenshot/cppStartingKit/mingw-install-options-marked.jpg?raw=true)
 
 For the next installation sequence you have to remember the path where you will install MinGW-w64 because it will be necessary for the next step. I recommend you to install it in a more convenient place like `C:\MinGW\x64` because you may have later to install a different version of MinGW and you can do it properly just by adding a new folder like `C:\MinGW\x86` for example.
 
@@ -252,11 +252,11 @@ The [`CCpp.tmLanguage`](https://github.com/kodLite/cppStartingKit/blob/master/CC
 
 For example the curly brackets were defined as `open.curly.bracket.ccpp` and `close.curly.bracket.ccpp`. Then `open.curly.bracket.block.ccpp` and `close.curly.bracket.block.ccpp` were added to override this first definition and define what we could call the curly brackets "block detection". After tests it seems that few exceptions appears and they are corrected by adding an additional code layer.   
 
-![C++ Starting Kit logic](https://github.com/kodLite/cppStartingKit/blob/master/screenshot/logic-ccpp-illustrated.jpg?raw=true)
+![C++ Starting Kit logic](https://github.com/kodLite/cppStartingKit-Guide/blob/master/screenshot/cppStartingKit/logic-ccpp-illustrated.jpg?raw=true)
 
 If you want to follow this process you have to put your main behaviors at the bottom and override them to the top, and not the opposite. (see the example below)
 
-![C++ Starting Kit Syntax Definition Override](https://github.com/kodLite/cppStartingKit/blob/master/screenshot/overrides.jpg?raw=true)
+![C++ Starting Kit Syntax Definition Override](https://github.com/kodLite/cppStartingKit-Guide/blob/master/screenshot/cppStartingKit/overrides.jpg?raw=true)
 
 The main idea behind this process is to have a flexbible and easily manageable and maintainable system which allow improvements without breaking everything. 
 
