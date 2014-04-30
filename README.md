@@ -7,7 +7,7 @@ If you are anyone else you can find tips to customize your Sublime Text environm
 
 This guide covers the key points to start using Sublime Text 3 for C++ projects under Windows 7 x64 environment. Things are pretty much the same depending on your version of Sublime Text and your operating system. 
 
-I created this project because as a beginner in programming I hope it is easier to have all the necessary informations centralized and uniformly documented.
+I created this project because as a beginner in programming I think it is easier to have all the necessary informations centralized and uniformly documented.
 
 I sincerly hope that you will find here relevant informations.
 
