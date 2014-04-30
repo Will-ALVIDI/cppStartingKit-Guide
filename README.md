@@ -7,11 +7,9 @@ If you are anyone else you can find tips to customize your Sublime Text environm
 
 This guide covers the key points to start using Sublime Text 3 for C++ projects under Windows 7 x64 environment. Things are pretty much the same depending on your version of Sublime Text and your operating system. 
 
-The informations provided in this guide should help you to understand the core of the [**C++ Starting Kit**](https://github.com/kodLite/cppStartingKit) and how globally things work inside Sublime Text. 
+I created this project because as a beginner in programming I hope it is easier to have all the necessary informations centralized and uniformly documented.
 
-I created this project because as a beginner in programming I needed a digestible and intelligible tool and documentation to begin my learning of C++. The native support is, in my opinion, not really functional, the documentation is not designed for beginners and too many things are interlocked and covered with difficulties by forums and other ressources.
-
-I hope you will find relevant informations to suit to your needs.
+I sincerly hope that you will find here relevant informations.
 
 # Install Python
 
