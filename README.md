@@ -99,7 +99,7 @@ I recommend you to create your first user build system inside the user folder in
 * Go to `Sublime Text/Data/Packages/User` folder.
 * Or from Sublime Text by going to `Preferences > Browse Packages...` then go inside the `User` folder. 
 * Create a file with an easily recognizable name like `User - C++.sublime-build`.
-* Copy and paste the following. It is a copy of the **C++ Starting Kit** build system :
+* Copy and paste the following. It is a copy of the [**C++ Starting Kit**](https://github.com/kodLite/cppStartingKit) build system :
 
 		{
 			"cmd": ["g++", "-Wall","*.cpp", "-I", "../header","-o", "${file_path}/${file_base_name}"],
