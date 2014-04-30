@@ -7,7 +7,7 @@ If you are anyone else you can find tips to customize your Sublime Text environm
 
 This guide covers the key points to start using Sublime Text 3 for C++ projects under Windows 7 x64. Things are pretty much the same depending on your version of Sublime Text and your operating system. 
 
-The informations provided in this guide should help you to understand the core of the **C++ Starting Kit** and how globally things work inside Sublime Text. 
+The informations provided in this guide should help you to understand the core of the [**C++ Starting Kit**](https://github.com/kodLite/cppStartingKit) and how globally things work inside Sublime Text. 
 
 I created this project because as a beginner in programming I needed a digestible and intelligible tool and documentation to begin my learning of C++. The native support is, in my opinion, not really functional, the documentation is not designed for beginners and too many things are interlocked and covered with difficulties by forums and other ressources. 
 
@@ -38,7 +38,7 @@ The path you will have to add at the end of the process is the main directory of
 # Use the C++ Starting Kit build system
 
 ## Prerequisite
-If you want to use the **C++ Starting Kit** build system to compile your C++ programs inside Sublime Text you will need to combine 5 elements :
+If you want to use the [**C++ Starting Kit**](https://github.com/kodLite/cppStartingKit) build system to compile your C++ programs inside Sublime Text you will need to combine 5 elements :
 * Install a compiler compatible with g++. In our case MinGW-w64 for x86 and x64 developments.
 * [Add your compiler to your system path](https://github.com/kodLite/cppStartingKit#add-folders-to-your-system-path).
 * Restart your computer.
@@ -73,7 +73,7 @@ For the next installation sequence you have to remember the path where you will 
 
 Add folders to your system path allow your system to share programs which can be call by other programs.
 
-The command `g++`, which is in reality the `g++.exe` file stored in your `MinGW-w64/bin`folder, is required by the **C++ Starting Kit** build system and must be available in your system path to allow Sublime Text to access it. To do it just follow these steps :
+The command `g++`, which is in reality the `g++.exe` file stored in your `MinGW-w64/bin`folder, is required by the [**C++ Starting Kit**](https://github.com/kodLite/cppStartingKit) build system and must be available in your system path to allow Sublime Text to access it. To do it just follow these steps :
 
 * Go to your `Start Menu`.
 * Right click on `Computer` then select `Properties`.
@@ -92,7 +92,7 @@ If you followed this guide from the beginning you have to add at the end of your
 
 **Introduction**
 
-Build systems in Sublime Text are project specific. It is hard to make one which covers every types of projects you will encounter. The **C++ Starting Kit** build system and the following documentation are an introduction and a starting point for your own future sublime build systems.
+Build systems in Sublime Text are project specific. It is hard to make one which covers every types of projects you will encounter. The [**C++ Starting Kit**](https://github.com/kodLite/cppStartingKit) build system and the following documentation are an introduction and a starting point for your own future sublime build systems.
 
 I recommend you to create your first user build system inside the user folder in Sublime Text :
 
@@ -133,12 +133,12 @@ As the compiling processes could require an entire guide I will just detail the 
 
 **Best practices : test your build systems by the command prompt**
 
-The commands inside the **C++ Starting Kit** build system are reproducible and testable inside Windows and his command prompt. Test your Sublime Text build systems this way before to adapt it for Sublime Text build systems.
+The commands inside the [**C++ Starting Kit**](https://github.com/kodLite/cppStartingKit) build system are reproducible and testable inside Windows and his command prompt. Test your Sublime Text build systems this way before to adapt it for Sublime Text build systems.
 
 Few steps are necessary to do it :
 * Locate the folder where your main program is stored.
 * Press `Shift + Richt Click` then choose `Open command window here`. This will open a command prompt ready to work directly on your project directory and avoid you to do this manipulation by command lines.
-* Then try the following commands which are equivalent to the **C++ Starting Kit** build system : 
+* Then try the following commands which are equivalent to the [**C++ Starting Kit**](https://github.com/kodLite/cppStartingKit) build system : 
 
 	**`g++ -Wall *.cpp -I ../header -o myProgramName.exe`**
 
@@ -146,7 +146,7 @@ If you build a program with those commands you will get as a result a `myProgram
 
 ### Use the C++ Starting Kit build system
 
-Default commands for `Build` and `Run` with **C++ Starting Kit** build system are :
+Default commands for `Build` and `Run` with [**C++ Starting Kit**](https://github.com/kodLite/cppStartingKit) build system are :
 * `Ctrl + B` to build your program.
 * `Ctrl + Shit + B` to run your program.
 
@@ -224,7 +224,7 @@ Syntax definitions are mainly define by a configuration file, `*.tmLanguage`, in
 
 ### How to edit a *.sublime package
 
-`*.sublime-package` like **C++ Starting Kit** are `*.zip` archive. If you want to modify files inside those packages you have to follow these steps :
+`*.sublime-package` like [**C++ Starting Kit**](https://github.com/kodLite/cppStartingKit) are `*.zip` archive. If you want to modify files inside those packages you have to follow these steps :
 * Inside your `Sublime Text/Packages` folder you have to find the package you want to modify.
 * Copy and paste it in a safe place and do your tweaks on this copy.
 * To open the package you have to rename it in `*.zip` then extract it.
@@ -237,7 +237,7 @@ Syntax definitions are mainly define by a configuration file, `*.tmLanguage`, in
 
 ### Global Structure of CCpp.tmLanguage
 
-The `CCpp.tmLanguage` file is the syntax definition included in the **C++ Starting Kit** package.
+The `CCpp.tmLanguage` file is the syntax definition included in the [**C++ Starting Kit**](https://github.com/kodLite/cppStartingKit) package.
 
 It is based on the default `C++.sublime-package` file and tweaked as follow :
 
