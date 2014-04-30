@@ -16,6 +16,7 @@ I hope you will find relevant informations to suit to your needs.
 # Table of content
 
 * Install Python
+
 ..* Why Python is necessary
 
 # Install Python
