@@ -1,5 +1,5 @@
-The Guide
-=========
+C++ Starting Kit : The Guide
+============================
 
 This guide is designed for people who are really new in C++ programming and want to use Sublime Text as a small IDE. If you follow these instructions step by step you will get crucial informations about Sublime Text environment, the [**C++ Starting Kit**](https://github.com/kodLite/cppStartingKit) and a real starting point for your C++ projects.
 
@@ -29,7 +29,7 @@ You can have multiple versions of Python installed.
 
 * Add Python to your system path.
 
-Read entirely this section to [add folders to your system path](https://github.com/kodLite/cppStartingKit#add-folders-to-your-system-path) which covers how to add MinGW-w64 to your system path then and adapt it for your Python installation. 
+Read entirely this section to [add folders to your system path](https://github.com/kodLite/cppStartingKit-Guide#add-folders-to-your-system-path) which covers how to add MinGW-w64 to your system path then and adapt it for your Python installation. 
 
 The path you will have to add at the end of the process is the main directory of your Python installation, where the `python.exe` file is stored.
 
@@ -40,10 +40,10 @@ The path you will have to add at the end of the process is the main directory of
 ## Prerequisite
 If you want to use the [**C++ Starting Kit**](https://github.com/kodLite/cppStartingKit) build system to compile your C++ programs inside Sublime Text you will need to combine 5 elements :
 * Install a compiler compatible with g++. In our case MinGW-w64 for x86 and x64 developments.
-* [Add your compiler to your system path](https://github.com/kodLite/cppStartingKit#add-folders-to-your-system-path).
+* [Add your compiler to your system path](https://github.com/kodLite/cppStartingKit-Guide#add-folders-to-your-system-path).
 * Restart your computer.
-* [Understand how the build system work](https://github.com/kodLite/cppStartingKit#understand-the-c-starting-kit-build-system).
-* [Know how to use the build system](https://github.com/kodLite/cppStartingKit#use-the-c-starting-kit-build-system-1).
+* [Understand how the build system work](https://github.com/kodLite/cppStartingKit-Guide#understand-the-c-starting-kit-build-system).
+* [Know how to use the build system](https://github.com/kodLite/cppStartingKit-Guide#use-the-c-starting-kit-build-system-1).
 
 ### Install MinGW-w64
 * Go to the MinGW-w64 project homepage at [http://mingw-w64.sourceforge.net/](http://mingw-w64.sourceforge.net/)
@@ -65,11 +65,11 @@ The first thing is to chosse the correct options for this specific installation.
 For the next installation sequence you have to remember the path where you will install MinGW-w64 because it will be necessary for the next step. I recommend you to install it in a more convenient place like `C:\MinGW\x64` because you may have later to install a different version of MinGW and you can do it properly just by adding a new folder like `C:\MinGW\x86` for example.
 
 * Then click on the `Next` button and let the installation finish his work.
-* Now you need to [add MinGW-w64 to your system path]((https://github.com/kodLite/cppStartingKit#add-folders-to-your-system-path)).
+* Now you need to [add MinGW-w64 to your system path]((https://github.com/kodLite/cppStartingKit-Guide#add-folders-to-your-system-path)).
 
 ### Add folders to your system path
 
-**As this part is useful for Python installation too, you can [click here](https://github.com/kodLite/cppStartingKit#install-python) to go back to Python section.**
+**As this part is useful for Python installation too, you can [click here](https://github.com/kodLite/cppStartingKit-Guide#install-python) to go back to Python section.**
 
 Add folders to your system path allow your system to share programs which can be call by other programs.
 
@@ -162,7 +162,7 @@ Default commands for `Build` and `Run` with [**C++ Starting Kit**](https://githu
 
 # Customize your color scheme
 
-If you use a default color scheme or something downloaded from the Internet you will have to add [**C++ Starting Kit** scopes](https://github.com/kodLite/cppStartingKit#c-starting-kit-scope-list) inside your `*.tmTheme` configuration file.
+If you use a default color scheme or something downloaded from the Internet you will have to add [**C++ Starting Kit** scopes](https://github.com/kodLite/cppStartingKit-Guide#c-starting-kit-scope-list) inside your `*.tmTheme` configuration file.
 
 A recommended alternative is to try the [Oasis Theme](https://github.com/kodLite/Oasis-Theme) especially build for. 
 
@@ -170,7 +170,7 @@ Otherwise you can take a look to the following. The next part is design as set o
 
 ### Locate your color scheme configuration file
 
-* Default color schemes are located inside the `Sublime Text/Packages` folder in a file called `Color Scheme - Default.sublime-package`. (see [how to edit a *.sublime package](https://github.com/kodLite/cppStartingKit#how-to-edit-a-sublime-package)) 
+* Default color schemes are located inside the `Sublime Text/Packages` folder in a file called `Color Scheme - Default.sublime-package`. (see [how to edit a *.sublime package](https://github.com/kodLite/cppStartingKit-Guide#how-to-edit-a-sublime-package)) 
 * User color schemes are located in `Sublime Text/Data/Packages/User` folder as a `*.tmTheme` file.
 
 If you want to tweak a default color scheme I recommend you to copy and rename it in your `Sublime Text/Data/Packages/User` folder.
@@ -237,7 +237,7 @@ Syntax definitions are mainly define by a configuration file, `*.tmLanguage`, in
 
 ### Global Structure of CCpp.tmLanguage
 
-The `CCpp.tmLanguage` file is the syntax definition included in the [**C++ Starting Kit**](https://github.com/kodLite/cppStartingKit) package.
+The [`CCpp.tmLanguage`](https://github.com/kodLite/cppStartingKit/blob/master/CCpp.tmLanguage) file is the syntax definition included in the [**C++ Starting Kit**](https://github.com/kodLite/cppStartingKit) package.
 
 It is based on the default `C++.sublime-package` file and tweaked as follow :
 
