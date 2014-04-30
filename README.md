@@ -11,38 +11,65 @@ The informations provided in this guide should help you to understand the core o
 
 I created this project because as a beginner in programming I needed a digestible and intelligible tool and documentation to begin my learning of C++. The native support is, in my opinion, not really functional, the documentation is not designed for beginners and too many things are interlocked and covered with difficulties by forums and other ressources.
 
+I hope you will find relevant informations to suit to your needs.
+
 # Table of content
 
 Install Python
+	
 	Why Python is necessary
-Install C++ Starting Kit
-	Manually
-	From Package Control
-Use the Starting Kit build system
-	Prerequisite
-		Install MinGW-64
-		Add folders to your system path
-		Understand the C++ Starting Kit build system
-		Use the C++ Starting Kit build system
-Customize your color scheme
-	Locate your color scheme configuration file
-	Change your color scheme
-	Find a scope name
-	Search a scope in your color scheme configuration file
-	Add a missing scope in your color scheme configuration file
-	C++ Starting Kit scope list
-Customize your syntax definition
-	What you need to know
-		Introduction
-		How to edit a *.sublime package
-		Global Structure of CCpp.tmLanguage
-		Logic behind CCpp.tmLanguage
-Going further
-	Sublime Text project management
-	Plugins
-	Regular expressions
 
-I hope you will find relevant informations to suit to your needs.
+Install C++ Starting Kit
+
+	Manually
+	
+	From Package Control
+
+Use the Starting Kit build system
+	
+	Prerequisite
+		
+		Install MinGW-64
+		
+		Add folders to your system path
+		
+		Understand the C++ Starting Kit build system
+		
+		Use the C++ Starting Kit build system
+
+Customize your color scheme
+	
+	Locate your color scheme configuration file
+	
+	Change your color scheme
+	
+	Find a scope name
+	
+	Search a scope in your color scheme configuration file
+	
+	Add a missing scope in your color scheme configuration file
+	
+	C++ Starting Kit scope list
+
+Customize your syntax definition
+
+	What you need to know
+	
+		Introduction
+		
+		How to edit a *.sublime package
+		
+		Global Structure of CCpp.tmLanguage
+		
+		Logic behind CCpp.tmLanguage
+
+Going further
+
+	Sublime Text project management
+	
+	Plugins
+
+	Regular expressions
 
 # Install Python
 
