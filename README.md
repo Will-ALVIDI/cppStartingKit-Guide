@@ -15,8 +15,8 @@ I hope you will find relevant informations to suit to your needs.
 
 # Table of content
 
-Install Python
-* Why Python is necessary
+1. Install Python
+1.1. Why Python is necessary
 Install C++ Starting Kit
 * Manually
 	From Package Control
