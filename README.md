@@ -62,9 +62,9 @@ The first thing is to chosse the correct options for this specific installation.
 
 ![MinGW-w64 project options](https://github.com/kodLite/cppStartingKit-Guide/blob/master/screenshot/cppStartingKit/mingw-install-options-marked.jpg?raw=true)
 
-For the next installation sequence you have to remember the path where you will install MinGW-w64 because it will be necessary for the next step. I recommend you to install it in a more convenient place like `C:\MinGW\x64` because you may have later to install a different version of MinGW and you can do it properly just by adding a new folder like `C:\MinGW\x86` for example.
+For the next installation sequence you have to specify a path for your installation and keep in your mind that you will need it later. I recommend you to install it in a more convenient place like `C:\MinGW\x64` because you may have later to install a different version of MinGW and you can do it properly just by adding a new folder like `C:\MinGW\x86` for example.
 
-* Then click on the `Next` button and let the installation finish his work.
+* Then click on the `Next` button and let the installation process finish his work.
 * Now you need to [add MinGW-w64 to your system path]((https://github.com/kodLite/cppStartingKit-Guide#add-folders-to-your-system-path)).
 
 ### Add folders to your system path
