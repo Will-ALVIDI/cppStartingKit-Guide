@@ -14,10 +14,6 @@ I created this project because as a beginner in programming I needed a digestibl
 I hope you will find relevant informations to suit to your needs.
 
 # Install Python
-## Why Python is necessary
-
-	
-# Install Python
 
 ### Why Python is necessary
 
