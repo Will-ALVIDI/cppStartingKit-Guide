@@ -158,7 +158,7 @@ If you build a program with those commands you will get as a result a `myProgram
 
 Default commands for `Build` and `Run` with [**C++ Starting Kit build system**](https://github.com/kodLite/cppStartingKit/blob/master/CCpp.sublime-build) are :
 * `Ctrl + B` to build your program.
-* `Ctrl + Shit + B` to run your program.
+* `Ctrl + Shift + B` to run your program.
 
 # Customize your color scheme
 
