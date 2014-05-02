@@ -48,7 +48,7 @@ The path you will have to add at the end of the process is the main directory of
 # Use the C++ Starting Kit build system
 
 ## Prerequisite
-If you want to use the [**C++ Starting Kit build system**](https://github.com/kodLite/cppStartingKit/blob/master/CCpp.sublime-build), which is the [`CCpp.sublime-build`](https://github.com/kodLite/cppStartingKit/blob/master/CCpp.sublime-build) file inside the [**C++ Starting Kit**](https://github.com/kodLite/cppStartingKit) package, to compile your C++ programs inside Sublime Text you will need to combine 5 elements :
+If you want to use the [C++ Starting Kit build system](https://github.com/kodLite/cppStartingKit/blob/master/C%2B%2B%20-%20Starting%20Kit.sublime-build), which is the [C++ - Starting.sublime-build](https://github.com/kodLite/cppStartingKit/blob/master/C%2B%2B%20-%20Starting%20Kit.sublime-build) file inside the [**C++ Starting Kit**](https://github.com/kodLite/cppStartingKit) package, to compile your C++ programs inside Sublime Text you will need to combine 5 elements :
 * Install a compiler compatible with g++. In our case MinGW-w64 for x86 and x64 developments.
 * [Add your compiler to your system path](https://github.com/kodLite/cppStartingKit-Guide#add-folders-to-your-system-path).
 * Restart your computer.
@@ -83,7 +83,7 @@ For the next installation sequence you have to specify a path for your installat
 
 Add folders to your system path allow your system to share programs which can be call by other programs.
 
-The command `g++`, which is in reality the `g++.exe` file stored in your `MinGW-w64/bin`folder, is required by the [**C++ Starting Kit build system**](https://github.com/kodLite/cppStartingKit/blob/master/CCpp.sublime-build) and must be available in your system path to allow Sublime Text to access it. To do it just follow these steps :
+The command `g++`, which is in reality the `g++.exe` file stored in your `MinGW-w64/bin`folder, is required by the [C++ Starting Kit build system](https://github.com/kodLite/cppStartingKit/blob/master/C%2B%2B%20-%20Starting%20Kit.sublime-build) and must be available in your system path to allow Sublime Text to access it. To do it just follow these steps :
 
 * Go to your `Start Menu`.
 * Right click on `Computer` then select `Properties`.
@@ -102,14 +102,14 @@ If you followed this guide from the beginning you have to add at the end of your
 
 **Introduction**
 
-Build systems in Sublime Text are project specific. It is hard to make one which covers every types of projects you will encounter. The [**C++ Starting Kit build system**](https://github.com/kodLite/cppStartingKit/blob/master/CCpp.sublime-build) and the following documentation are an introduction and a starting point for your own future sublime build systems.
+Build systems in Sublime Text are project specific. It is hard to make one which covers every types of projects you will encounter. The [C++ Starting Kit build system](https://github.com/kodLite/cppStartingKit/blob/master/C%2B%2B%20-%20Starting%20Kit.sublime-build) and the following documentation are an introduction and a starting point for your own future sublime build systems.
 
 I recommend you to create your first user build system inside the user folder in Sublime Text :
 
 * Go to `Sublime Text/Data/Packages/User` folder.
 * Or from Sublime Text by going to `Preferences > Browse Packages...` then go inside the `User` folder. 
 * Create a file with an easily recognizable name like `User - C++.sublime-build`.
-* Copy and paste the following. It is a copy of the [**C++ Starting Kit build system**](https://github.com/kodLite/cppStartingKit/blob/master/CCpp.sublime-build) :
+* Copy and paste the following. It is a copy of the [C++ Starting Kit build system](https://github.com/kodLite/cppStartingKit/blob/master/C%2B%2B%20-%20Starting%20Kit.sublime-build) :
 
 		{
 			"cmd": ["g++", "-Wall","*.cpp", "-I", "../header","-o", "${file_path}/${file_base_name}"],
@@ -143,12 +143,12 @@ As the compiling processes could require an entire guide I will just detail the 
 
 **Best practices : test your build systems by the command prompt.**
 
-The commands inside the [**C++ Starting Kit build system**](https://github.com/kodLite/cppStartingKit/blob/master/CCpp.sublime-build) are reproducible and testable inside Windows command prompt. Test your Sublime Text build systems this way before to adapt it for Sublime Text build systems.
+The commands inside the [C++ Starting Kit build system](https://github.com/kodLite/cppStartingKit/blob/master/C%2B%2B%20-%20Starting%20Kit.sublime-build) are reproducible and testable inside Windows command prompt. Test your Sublime Text build systems this way before to adapt it for Sublime Text build systems.
 
 Few steps are necessary to do it :
 * Locate the folder where your main program is stored.
 * Press `Shift + Richt Click` then choose `Open command window here`. This will open a command prompt ready to work directly on your project directory and avoid you to do this manipulation by command lines.
-* Then try the following commands which are equivalent to the [**C++ Starting Kit build system**](https://github.com/kodLite/cppStartingKit/blob/master/CCpp.sublime-build) : 
+* Then try the following commands which are equivalent to the [C++ Starting Kit build system](https://github.com/kodLite/cppStartingKit/blob/master/C%2B%2B%20-%20Starting%20Kit.sublime-build) : 
 
 	**`g++ -Wall *.cpp -I ../header -o myProgramName.exe`**
 
@@ -156,7 +156,7 @@ If you build a program with those commands you will get as a result a `myProgram
 
 ### Use the C++ Starting Kit build system
 
-Default commands for `Build` and `Run` with [**C++ Starting Kit build system**](https://github.com/kodLite/cppStartingKit/blob/master/CCpp.sublime-build) are :
+Default commands for `Build` and `Run` with [C++ Starting Kit build system](https://github.com/kodLite/cppStartingKit/blob/master/C%2B%2B%20-%20Starting%20Kit.sublime-build) are :
 * `Ctrl + B` to build your program.
 * `Ctrl + Shift + B` to run your program.
 
@@ -242,7 +242,7 @@ The [`CCpp.tmLanguage`](https://github.com/kodLite/cppStartingKit/blob/master/CC
 It is based on the default `C++.sublime-package` file and tweaked as follow :
 
 * `C.tmLanguage` and `C++.tmLanguage`, which were mainly responsible of the syntax definition for the default C and C++ language support, were splitted, documented, merged and improved in [`CCpp.tmLanguage`](https://github.com/kodLite/cppStartingKit/blob/master/CCpp.tmLanguage).
-* `C++.sublime-build`, which embedded the default build system for C and C++, was customized and renamed in [`CCpp.sublime-build`](https://github.com/kodLite/cppStartingKit/blob/master/CCpp.sublime-build).
+* `C++.sublime-build`, which embedded the default build system for C and C++, was customized and renamed in [C++ Starting Kit build system](https://github.com/kodLite/cppStartingKit/blob/master/C%2B%2B%20-%20Starting%20Kit.sublime-build).
 * `C++.sublime-settings`, which specifies the supported file types, was just renamed in [`CCpp.sublime-settings`](https://github.com/kodLite/cppStartingKit/blob/master/CCpp.sublime-settings). 
 * All the other files were preserved.
 
