@@ -239,10 +239,10 @@ Syntax definitions are mainly define by a configuration file, `*.tmLanguage`, in
 
 The [`CCpp.tmLanguage`](https://github.com/kodLite/cppStartingKit/blob/master/CCpp.tmLanguage) file is the syntax definition included in the [**C++ Starting Kit**](https://github.com/kodLite/cppStartingKit) package.
 
-It is based on the default `C++.sublime-package` file and tweaked as follow :
+It is based on the default `C++.sublime-package` package and tweaked as follow :
 
 * `C.tmLanguage` and `C++.tmLanguage`, which were mainly responsible of the syntax definition for the default C and C++ language support, were splitted, documented, merged and improved in [`CCpp.tmLanguage`](https://github.com/kodLite/cppStartingKit/blob/master/CCpp.tmLanguage).
-* `C++.sublime-build`, which embedded the default build system for C and C++, was customized and renamed in [C++ Starting Kit build system](https://github.com/kodLite/cppStartingKit/blob/master/C%2B%2B%20-%20Starting%20Kit.sublime-build).
+* `C++.sublime-build`, which embedded the default build system for C and C++, was customized and renamed in [C++ Starting Kit.sublime-build](https://github.com/kodLite/cppStartingKit/blob/master/C%2B%2B%20-%20Starting%20Kit.sublime-build).
 * `C++.sublime-settings`, which specifies the supported file types, was just renamed in [`CCpp.sublime-settings`](https://github.com/kodLite/cppStartingKit/blob/master/CCpp.sublime-settings). 
 * All the other files were preserved.
 
