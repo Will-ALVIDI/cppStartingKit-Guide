@@ -7,11 +7,11 @@ C++ Starting Kit for Sublime Text : The Guide
 
 You will need to restart Sublime Text after this installation before to see the changes.
 
-After the restart double check :
+**After the restart double check :**
 
-* If you are in the **C,C++(11)** syntax. (from the View menu go to Syntax > C,C++(11))
+* If you use in the C,C++(11) syntax. (from the View menu go to Syntax > C,C++(11))
 
-* If you use the **C++ Starting Kit** build system. (from the Tools menu go to Build System > C++ Starting Kit) 
+* If you use the C++ Starting Kit build system. (from the Tools menu go to Build System > C++ Starting Kit) 
 
 ### Introduction
 
