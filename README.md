@@ -3,6 +3,8 @@ C++ Starting Kit for Sublime Text : The Guide
 
 **Lire la documentation [en français](https://github.com/kodLite/cppStartingKit-Guidefr)**
 
+**DUE TO THE CHANGES INSIDE THE RELEASE 0.2.5(see the [release note](https://github.com/kodLite/cppStartingKit/blob/master/messages/0.2.5.txt)) THIS DOCUMENTATION IS OUT OF DATE BUT STILL CONTAINS RELEVANT INFORMATIONS. THIS WILL BE FIXED AS SOON AS POSSIBLE.**
+
 ### Post installation
 
 You will need to restart Sublime Text after this installation before to see the changes.
