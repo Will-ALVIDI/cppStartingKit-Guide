@@ -9,7 +9,7 @@ You will need to restart Sublime Text after this installation before to see the 
 
 **After the restart double check :**
 
-* If you use in the C,C++(11) syntax. (from the View menu go to Syntax > C,C++(11))
+* If you use in the C or C++ from the C++ Starting Kit syntax. (from the View menu go to Syntax > C++ Starting Kit and choose the one you need)
 
 * If you use the C++ Starting Kit build system. (from the Tools menu go to Build System > C++ Starting Kit) 
 
